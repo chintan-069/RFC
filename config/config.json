@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "rfc-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/rfc/RfcWebPart.js",
+          "manifest": "./src/webparts/rfc/RfcWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RfcWebPartStrings": "lib/webparts/rfc/loc/{locale}.js"
+  }
+}

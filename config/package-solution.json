@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "rfc-on-boarding-client-side-solution",
+    "id": "80181ea5-84c7-4a6c-8a9b-dd71699d10f0",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "RFCOnBoarding description"
+      },
+      "longDescription": {
+        "default": "RFCOnBoarding description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "rfc-on-boarding Feature",
+        "description": "The feature that activates elements of the rfc-on-boarding solution.",
+        "id": "1bc4c666-b63a-4907-a05a-32152481b506",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/rfc-on-boarding.sppkg"
+  }
+}
